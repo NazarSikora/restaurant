@@ -1,2 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(images/bg1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 0px 165px;
+}
+
+.header-holder {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+}
+
+.header-navbar__links {
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    color: #FF7400;
+}
+
+.header-navbar__phone {
+    color: white;
+}
+
+.header-navbar__cart {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid white;
+    height: 51px;
+    padding-left: 36px;
+    padding-right: 21px;
+}
+
+.header-navbar__phone {
+    padding-left: 10px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-navbar_button {
+    margin-left: 45px;
+}
+
+.button {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF7400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background-color: #FFA500;
+}
+
+.header-content {
+    position: absolute;
+    padding-top: 190px;
+}
+
+.header-content__title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Tinos', sans-serif;
+    color: #D67E35;
+}
+
+.header-content__subtitle {
+    text-align: center;
+    font-family: 'Tinos', sans-serif;
+    font-size: 80px;
+    color: #D67E35;
+}
+
+.header-content__text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 25px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.header-content__button {
+    text-align: center;
+    margin-top: 15px;
+}
