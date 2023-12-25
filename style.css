@@ -19,7 +19,7 @@
 
 .header-holder {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 50px;
 }
 
@@ -122,4 +122,46 @@
 .header-content__button {
     text-align: center;
     margin-top: 15px;
+}
+
+.cards {
+    position: relative;
+    bottom: 100px;
+}
+
+.cards-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    display: block;
+    justify-content: center;
+    width: 349px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 25px 30px;
+    margin-right: 20px;
+}
+
+.card-item:not(:last-of-type) {
+    margin-left: 0px;
+}
+
+.card-item__title {
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
+}
+
+.subtitle {
+    color: #BC9060;
+}
+
+.card-item__content {
+    text-align: center;
+}
+
+.card-item__text {
+    color: #656363;
+    font-size: 26px;
 }
