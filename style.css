@@ -165,3 +165,69 @@
     color: #656363;
     font-size: 26px;
 }
+
+.our-history {
+    margin-top: 60px;
+}
+
+.our-history__content {
+    display: flex;
+    position: absolute;
+}
+
+.our-history__title {
+    text-align: center;
+    font-family: 'Tinos', sans-serif;
+    font-size: 54px;
+    padding-bottom: 20px;
+}
+
+.our-history__text {
+    width: 444px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+    color: #656363;
+}
+
+.our-history__counts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.count {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #BC9060;
+    text-align: center;
+}
+
+.subcounttitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.our-history__images {
+    display: flex;
+}
+
+.image_one {
+    position: relative;
+    top: -18px;
+    right: -107px;
+    z-index: 999;
+}
+
+.image_two {
+    position: relative;
+    z-index: 100;
+    top: 156px;
+    left: 108px;
+}
+
+.image_three {
+    position: relative;
+    top: -22px;
+    left: -270px;
+}
