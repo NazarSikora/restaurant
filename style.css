@@ -404,3 +404,19 @@
 .small-image_dishe__second {
     margin-left: 25px;
 }
+
+.our-cooks {
+    margin-top: 100px;
+}
+
+.our-cooks__title {
+    font-family: 'Tinos', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.our-cooks__image {
+    display: flex;
+    justify-content: space-between;
+}
