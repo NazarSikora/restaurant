@@ -168,11 +168,12 @@
 
 .our-history {
     margin-top: 60px;
+    margin-bottom: 200px;
 }
 
 .our-history__content {
     display: flex;
-    position: absolute;
+    position: relative;
 }
 
 .our-history__title {
@@ -230,4 +231,70 @@
     position: relative;
     top: -22px;
     left: -270px;
+}
+
+.celebrating {
+    background-image: url(images/bg2.png);
+    margin-top: 50px;
+    padding: 80px 0px;
+}
+
+.celebrating-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.celebrating-content__title {
+    font-family: 'Tinos', sans-serif;
+    font-size: 52px;
+    color: #d67e34;
+}
+
+.celebrating-content__text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.our-meals {
+    margin-top: 120px;
+}
+
+.our-meals__title {
+    font-family: 'Tinos', sans-serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.our-meals__images {
+    display: flex;
+}
+
+.our-meals__images .small_images {
+    display: block;
+    padding-left: 30px;
+}
+
+.our-meals__images .image-card {
+    padding-bottom: 30px;
+}
+
+.image-card__content {
+    display: flex;
+    align-items: center;
+}
+
+.image-card__content .content_title {
+    padding: 0px 30px;
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
+}
+
+.image-card__content .content_price {
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
 }
