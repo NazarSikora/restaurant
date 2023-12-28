@@ -346,3 +346,38 @@
 .our-menu__button {
     text-align: center;
 }
+
+.comment {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #E5E5E5;
+}
+
+.comment__text {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.comment__avatar {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.comment__avatar img {
+    border-radius: 50px;
+}
+
+.comment__human {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.comment__username {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
