@@ -261,6 +261,7 @@
 
 .our-meals {
     margin-top: 120px;
+    margin-bottom: 150px;
 }
 
 .our-meals__title {
@@ -297,4 +298,51 @@
 .image-card__content .content_price {
     font-family: 'Tinos', sans-serif;
     font-size: 26px;
+}
+
+.our-menu {
+    background-image: url(images/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.our-menu__title {
+    text-align: center;
+    font-family: 'Tinos', sans-serif;
+    font-size: 54px;
+    color: #ffffff;
+    padding: 110px 0px;
+}
+
+.our-menu__cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-menu__card {
+    display: block;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 30px 50px;
+}
+
+.our-menu__image {
+    text-align: center;
+}
+
+.our-menu__subtitle {
+    font-family: 'Tinos', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.our-menu__text {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 25px;
+}
+
+.our-menu__button {
+    text-align: center;
 }
