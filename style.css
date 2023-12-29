@@ -96,6 +96,8 @@
     display: none;
 }
 
+
+
 .burger_button {
     border: none;
     text-decoration: none;
@@ -480,7 +482,20 @@
         display: none;
     }
     .header-navbar_burger {
-        display: flex;
+        display: block;
+        text-align: center;
+    }
+
+    .header-navbar_burger__links {
+        padding-top: 10px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .header-holder {
+        align-items: center;
     }
 }
 
