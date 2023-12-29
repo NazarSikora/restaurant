@@ -405,6 +405,10 @@
     text-align: center;
 }
 
+.galery-dishes .small-dishes {
+    display: flex;
+}
+
 .galery-dishes__foods {
     display: flex;
     justify-content: space-between;
@@ -546,7 +550,11 @@
 
 @media(max-width: 605px) {
     .container {
-        padding: 0px 5px;
+        padding: 0px 15px;
+    }
+
+    .galery-dishes .small-dishes {
+        display: block;
     }
 
     .header-content__title {
@@ -615,5 +623,30 @@
     
     .big_image {
         display: none;
+    }
+
+    .our-cooks__image img {
+        width: auto;
+    }
+
+    .our-meals__images .image-card {
+        display: block;
+    }
+
+    .image-card__content {
+        display: block;
+    }
+
+    .our-menu__card {
+        width: 33%;
+    }
+
+    .our-menu__image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .our-menu__image img {
+        width: auto;
     }
 }
