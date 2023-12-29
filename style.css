@@ -92,6 +92,17 @@
     background-color: #FFA500;
 }
 
+.header-navbar_burger {
+    display: none;
+}
+
+.burger_button {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+}
+
 .header-content {
     position: absolute;
     padding-top: 190px;
@@ -173,7 +184,6 @@
 
 .our-history__content {
     display: flex;
-    position: relative;
 }
 
 .our-history__title {
@@ -341,6 +351,7 @@
 .our-menu__text {
     font-family: 'Open Sans', sans-serif;
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .our-menu__button {
@@ -431,4 +442,163 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     color: #ffffff;
+}
+
+@media(max-width: 1286px) {
+    .container {
+        padding: 0px 100px;
+    }
+    .our-history__images {
+        display: none;
+    }
+    .our-history__content {
+        justify-content: center;
+    }
+    .our-menu__cards {
+        display: block;
+    }
+    .our-menu__card {
+        width: 33%;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 1196px) {
+    .galery-dishes__foods {
+        display: block;
+        text-align: center;
+    }
+    .our-cooks__image {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width: 1125px) {
+    .header-navbar {
+        display: none;
+    }
+    .header-navbar_burger {
+        display: flex;
+    }
+}
+
+@media(max-width: 1074px) {
+    .container {
+        padding: 0px 50px;
+    }
+    .header-content {
+        position: static;
+        padding-top: 150px;
+    }
+    .cards-card {
+        display: block;
+    }
+    .card-item {
+        width: auto;
+        margin: 0px auto;
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 1026px) {
+    .container {
+        padding: 0px 25px;
+    }
+    .celebrating-information {
+        display: block;
+        text-align: center;
+    }
+    .celebrating-button {
+        margin-top: 40px;
+    }
+    .our-meals__images {
+        display: block;
+        text-align: center;
+        
+    }
+    
+    .image-card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content_title {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 605px) {
+    .container {
+        padding: 0px 5px;
+    }
+
+    .header-content__title {
+        font-size: 30px;
+    }
+
+    .header-content__subtitle {
+        font-size: 60px;
+    }
+    
+    .header-content__text {
+        font-size: 14px;
+    }
+
+    .card-item__title {
+        font-size: 20px;
+    }
+
+    .card-item__text {
+        font-size: 20px;
+    }
+
+    .our-history__title {
+        font-size: 30px;
+    }
+
+    .our-history__text {
+        font-size: 14px;
+    }
+
+    .count {
+        font-size: 25px;
+    }
+
+    .subcounttitle {
+        font-size: 14px;
+    }
+
+    .celebrating-content__title {
+        font-size: 30px;
+    }
+
+    .celebrating-content__text {
+        font-size: 14px;
+    }
+
+    .image-card__content .content_title {
+        font-size: 18px;
+    }
+
+    .image-card__content .content_price {
+        font-size: 18px;
+    }
+
+    .our-menu__card {
+        width: auto;
+    }
+
+    .menu__image {
+        width: auto;
+    }
+
+    .big-image__dishe {
+        display: none;
+    }
+    
+    .big_image {
+        display: none;
+    }
 }
